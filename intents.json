@@ -1,0 +1,125 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "I'm Apple, How can I help you?",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "Who",
+      "patterns": ["Who are you?", "What is your name?"],
+      "responses": ["I am Apple, Agriculture ChatBot"]
+    },
+    {
+      "tag": "problem",
+      "patterns": ["I am facing a problem with my crop", "Can you solve this problem?"],
+      "responses": ["Can you explain it in detail?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell fertilizers and more",
+        "We sell medicine plants and more",
+        "We sell Organic Products and more"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Soil Testing",
+      "patterns": ["Tell me about soil sample", "How to take soil sample?", "What is the technique used in taking soil sample"],
+      "responses": ["Dig 6-9 inch deep 'V' Shape pit and Taking 500gm soil sample for testing soil"]
+    },
+    {
+      "tag": "Nutrient Management",
+      "patterns": ["Tell me something about nutrient management?", "What are some ways to improve nutrient in soil?", "How to manage nutrients"],
+      "responses": ["Spray of zinc sulphate 5gm + Urea 10gm per litre water", "Spray soluble npk 18:18:18 grafe 10gm/ltr water", "Spray multi (micronutrient) 4ml"]
+    },
+    {
+      "tag": "Plant Protection",
+      "patterns": ["Tell me how to control insect in wheat", "What are some ways to control insects in wheat?"],
+      "responses": ["You can use fumigants like methyl bromide and magnesium or aluminium phosphate"]
+    },
+    {
+      "tag": "Subsidy",
+      "patterns": ["give me some information on subsidies", "what are some various subsidy data?"],
+      "responses": ["An agricultural subsidy (also called an agricultural incentive) is a government incentive paid to agribusinesses, agricultural organizations and farms to supplement their income, manage the supply of agricultural commodities, and influence the cost and supply of such commodities."]
+    },
+    {
+      "tag": "Farm Pond",
+      "patterns": ["Farm Pond"],
+      "responses": ["Subsidy on farm pond = 50% of total cost or 75000/- maximum"]
+    },
+    {
+      "tag": "Weather",
+      "patterns": ["Suitable weather conditions for paddy", "weather conditions for rice crop"],
+      "responses": ["Rice crop needs a hot and humid climate.It is best suited to regions which have high humidity, prolonged sunshine and an assured supply of water."]
+    }
+  ]
+}
